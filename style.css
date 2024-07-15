@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    margin: auto;
+}
+
+.logo {
+    padding: 0px;
+}
+
+.header {
+    margin-top: 10px;
+   flex-direction: column;
+}
+
+
+.header-izq {
+    display: flex;
+    float: left;
+    padding-bottom: 0px;
+}
+
+.nombre p {
+    font-family: Roboto;
+    float: right;
+    font-size: 15px;
+}
+
+.logo {
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+.header-der {
+    padding: 20px;
+    margin: 5px;
+    float: right;
+}
+
+.post{
+    width: 450px;
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-bottom: 0;
+}
+
+.image img {
+    display: block;
+    max-width: 100%;
+}
+
+.icons {
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+   flex-direction: row;
+}
+
+.icons-right {
+    padding: 2px;
+    float: right;
+}
+
+.icons-left {
+    float: left;
+}
+.footer {
+    margin-bottom: 10px;
+}
+.footer1 {
+    font-family: Roboto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.footer2 {
+    font-family: Roboto;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
